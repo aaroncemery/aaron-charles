@@ -1,0 +1,16 @@
+{
+  "name": "@aaron-charles/utils",
+  "version": "1.0.0",
+  "main": "./src/indes.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint . --max-warning=0",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@emery/eslint-config": "workspace:*",
+    "@emery/typescript-config": "workspace:*",
+    "@types/react": "^19",
+    "typescript": "^5"
+  }
+}
